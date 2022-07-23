@@ -9,7 +9,6 @@ export default function Home() {
         <title>Hulu 2.0</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>HULU!</h1>
       {/* Header */}
       <Header />
       {/* Nav */}
