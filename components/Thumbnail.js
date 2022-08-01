@@ -6,7 +6,7 @@ const Thumbnail = forwardRef(({result}, ref) => {
   const BASE_URL = 'https://image.tmdb.org/t/p/original/';
 
   return (
-    <div className="group cursor-pointer transition duration-200 ease-in transform m-5 sm:hover:scale-105 hover:z-50">
+    <div className="group cursor-pointer transition duration-200 ease-in transform m-5 sm:hover:scale-110 hover:z-50">
       <Image 
         layout="responsive"
         src={`${BASE_URL}${result.backdrop_path || result.poster_path}` || `${BASE_URL}${result.poster_path}`}
